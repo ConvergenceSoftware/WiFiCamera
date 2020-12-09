@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8A023A92580D9AB00F0B49A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023A82580D9AB00F0B49A /* AppDelegate.m */; };
+		A8A023AC2580D9AB00F0B49A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023AB2580D9AB00F0B49A /* SceneDelegate.m */; };
+		A8A023AF2580D9AB00F0B49A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023AE2580D9AB00F0B49A /* ViewController.m */; };
+		A8A023B22580D9AB00F0B49A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A023B02580D9AB00F0B49A /* Main.storyboard */; };
+		A8A023B42580D9AD00F0B49A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A023B32580D9AD00F0B49A /* Assets.xcassets */; };
+		A8A023B72580D9AE00F0B49A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A023B52580D9AE00F0B49A /* LaunchScreen.storyboard */; };
+		A8A023BA2580D9AE00F0B49A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023B92580D9AE00F0B49A /* main.m */; };
+		A8A023C42580D9AE00F0B49A /* WiFiCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023C32580D9AE00F0B49A /* WiFiCameraTests.m */; };
+		A8A023CF2580D9AE00F0B49A /* WiFiCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8A023C02580D9AE00F0B49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8A0239C2580D9AB00F0B49A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8A023A32580D9AB00F0B49A;
+			remoteInfo = WiFiCamera;
+		};
+		A8A023CB2580D9AE00F0B49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8A0239C2580D9AB00F0B49A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8A023A32580D9AB00F0B49A;
+			remoteInfo = WiFiCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8A023A42580D9AB00F0B49A /* WiFiCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A023A72580D9AB00F0B49A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8A023A82580D9AB00F0B49A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8A023AA2580D9AB00F0B49A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A8A023AB2580D9AB00F0B49A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A8A023AD2580D9AB00F0B49A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8A023AE2580D9AB00F0B49A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8A023B12580D9AB00F0B49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8A023B32580D9AD00F0B49A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8A023B62580D9AE00F0B49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8A023B82580D9AE00F0B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A023B92580D9AE00F0B49A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8A023BF2580D9AE00F0B49A /* WiFiCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A023C32580D9AE00F0B49A /* WiFiCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiCameraTests.m; sourceTree = "<group>"; };
+		A8A023C52580D9AE00F0B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A023CA2580D9AE00F0B49A /* WiFiCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiCameraUITests.m; sourceTree = "<group>"; };
+		A8A023D02580D9AE00F0B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8A023A12580D9AB00F0B49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A023BC2580D9AE00F0B49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A023C72580D9AE00F0B49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8A0239B2580D9AB00F0B49A = {
+			isa = PBXGroup;
+			children = (
+				A8A023A62580D9AB00F0B49A /* WiFiCamera */,
+				A8A023C22580D9AE00F0B49A /* WiFiCameraTests */,
+				A8A023CD2580D9AE00F0B49A /* WiFiCameraUITests */,
+				A8A023A52580D9AB00F0B49A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8A023A52580D9AB00F0B49A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8A023A42580D9AB00F0B49A /* WiFiCamera.app */,
+				A8A023BF2580D9AE00F0B49A /* WiFiCameraTests.xctest */,
+				A8A023CA2580D9AE00F0B49A /* WiFiCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8A023A62580D9AB00F0B49A /* WiFiCamera */ = {
+			isa = PBXGroup;
+			children = (
+				A8A023A72580D9AB00F0B49A /* AppDelegate.h */,
+				A8A023A82580D9AB00F0B49A /* AppDelegate.m */,
+				A8A023AA2580D9AB00F0B49A /* SceneDelegate.h */,
+				A8A023AB2580D9AB00F0B49A /* SceneDelegate.m */,
+				A8A023AD2580D9AB00F0B49A /* ViewController.h */,
+				A8A023AE2580D9AB00F0B49A /* ViewController.m */,
+				A8A023B02580D9AB00F0B49A /* Main.storyboard */,
+				A8A023B32580D9AD00F0B49A /* Assets.xcassets */,
+				A8A023B52580D9AE00F0B49A /* LaunchScreen.storyboard */,
+				A8A023B82580D9AE00F0B49A /* Info.plist */,
+				A8A023B92580D9AE00F0B49A /* main.m */,
+			);
+			path = WiFiCamera;
+			sourceTree = "<group>";
+		};
+		A8A023C22580D9AE00F0B49A /* WiFiCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8A023C32580D9AE00F0B49A /* WiFiCameraTests.m */,
+				A8A023C52580D9AE00F0B49A /* Info.plist */,
+			);
+			path = WiFiCameraTests;
+			sourceTree = "<group>";
+		};
+		A8A023CD2580D9AE00F0B49A /* WiFiCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */,
+				A8A023D02580D9AE00F0B49A /* Info.plist */,
+			);
+			path = WiFiCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8A023A32580D9AB00F0B49A /* WiFiCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A023D32580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCamera" */;
+			buildPhases = (
+				A8A023A02580D9AB00F0B49A /* Sources */,
+				A8A023A12580D9AB00F0B49A /* Frameworks */,
+				A8A023A22580D9AB00F0B49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiCamera;
+			productName = WiFiCamera;
+			productReference = A8A023A42580D9AB00F0B49A /* WiFiCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8A023BE2580D9AE00F0B49A /* WiFiCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A023D62580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCameraTests" */;
+			buildPhases = (
+				A8A023BB2580D9AE00F0B49A /* Sources */,
+				A8A023BC2580D9AE00F0B49A /* Frameworks */,
+				A8A023BD2580D9AE00F0B49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8A023C12580D9AE00F0B49A /* PBXTargetDependency */,
+			);
+			name = WiFiCameraTests;
+			productName = WiFiCameraTests;
+			productReference = A8A023BF2580D9AE00F0B49A /* WiFiCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8A023C92580D9AE00F0B49A /* WiFiCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A023D92580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCameraUITests" */;
+			buildPhases = (
+				A8A023C62580D9AE00F0B49A /* Sources */,
+				A8A023C72580D9AE00F0B49A /* Frameworks */,
+				A8A023C82580D9AE00F0B49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8A023CC2580D9AE00F0B49A /* PBXTargetDependency */,
+			);
+			name = WiFiCameraUITests;
+			productName = WiFiCameraUITests;
+			productReference = A8A023CA2580D9AE00F0B49A /* WiFiCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8A0239C2580D9AB00F0B49A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A8A023A32580D9AB00F0B49A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A8A023BE2580D9AE00F0B49A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A8A023A32580D9AB00F0B49A;
+					};
+					A8A023C92580D9AE00F0B49A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A8A023A32580D9AB00F0B49A;
+					};
+				};
+			};
+			buildConfigurationList = A8A0239F2580D9AB00F0B49A /* Build configuration list for PBXProject "WiFiCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8A0239B2580D9AB00F0B49A;
+			productRefGroup = A8A023A52580D9AB00F0B49A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8A023A32580D9AB00F0B49A /* WiFiCamera */,
+				A8A023BE2580D9AE00F0B49A /* WiFiCameraTests */,
+				A8A023C92580D9AE00F0B49A /* WiFiCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8A023A22580D9AB00F0B49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A023B72580D9AE00F0B49A /* LaunchScreen.storyboard in Resources */,
+				A8A023B42580D9AD00F0B49A /* Assets.xcassets in Resources */,
+				A8A023B22580D9AB00F0B49A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A023BD2580D9AE00F0B49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A023C82580D9AE00F0B49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8A023A02580D9AB00F0B49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A023AF2580D9AB00F0B49A /* ViewController.m in Sources */,
+				A8A023A92580D9AB00F0B49A /* AppDelegate.m in Sources */,
+				A8A023BA2580D9AE00F0B49A /* main.m in Sources */,
+				A8A023AC2580D9AB00F0B49A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A023BB2580D9AE00F0B49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A023C42580D9AE00F0B49A /* WiFiCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A023C62580D9AE00F0B49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A023CF2580D9AE00F0B49A /* WiFiCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8A023C12580D9AE00F0B49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8A023A32580D9AB00F0B49A /* WiFiCamera */;
+			targetProxy = A8A023C02580D9AE00F0B49A /* PBXContainerItemProxy */;
+		};
+		A8A023CC2580D9AE00F0B49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8A023A32580D9AB00F0B49A /* WiFiCamera */;
+			targetProxy = A8A023CB2580D9AE00F0B49A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8A023B02580D9AB00F0B49A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8A023B12580D9AB00F0B49A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8A023B52580D9AE00F0B49A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8A023B62580D9AE00F0B49A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8A023D12580D9AE00F0B49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8A023D22580D9AE00F0B49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8A023D42580D9AE00F0B49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV39K6U9AB;
+				INFOPLIST_FILE = WiFiCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8A023D52580D9AE00F0B49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV39K6U9AB;
+				INFOPLIST_FILE = WiFiCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8A023D72580D9AE00F0B49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U39K6PTYW;
+				INFOPLIST_FILE = WiFiCameraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFiCamera.app/WiFiCamera";
+			};
+			name = Debug;
+		};
+		A8A023D82580D9AE00F0B49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U39K6PTYW;
+				INFOPLIST_FILE = WiFiCameraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFiCamera.app/WiFiCamera";
+			};
+			name = Release;
+		};
+		A8A023DA2580D9AE00F0B49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U39K6PTYW;
+				INFOPLIST_FILE = WiFiCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiFiCamera;
+			};
+			name = Debug;
+		};
+		A8A023DB2580D9AE00F0B49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U39K6PTYW;
+				INFOPLIST_FILE = WiFiCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiFiCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8A0239F2580D9AB00F0B49A /* Build configuration list for PBXProject "WiFiCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A023D12580D9AE00F0B49A /* Debug */,
+				A8A023D22580D9AE00F0B49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A023D32580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A023D42580D9AE00F0B49A /* Debug */,
+				A8A023D52580D9AE00F0B49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A023D62580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A023D72580D9AE00F0B49A /* Debug */,
+				A8A023D82580D9AE00F0B49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A023D92580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A023DA2580D9AE00F0B49A /* Debug */,
+				A8A023DB2580D9AE00F0B49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8A0239C2580D9AB00F0B49A /* Project object */;
+}
