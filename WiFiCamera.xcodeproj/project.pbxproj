@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A86246AB258233CD002ABE1D /* CameraBuffer.h in Sources */ = {isa = PBXBuildFile; fileRef = A86246A725823379002ABE1D /* CameraBuffer.h */; };
 		A8A023A92580D9AB00F0B49A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023A82580D9AB00F0B49A /* AppDelegate.m */; };
 		A8A023AC2580D9AB00F0B49A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023AB2580D9AB00F0B49A /* SceneDelegate.m */; };
 		A8A023AF2580D9AB00F0B49A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023AE2580D9AB00F0B49A /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		A8A023BA2580D9AE00F0B49A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023B92580D9AE00F0B49A /* main.m */; };
 		A8A023C42580D9AE00F0B49A /* WiFiCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023C32580D9AE00F0B49A /* WiFiCameraTests.m */; };
 		A8A023CF2580D9AE00F0B49A /* WiFiCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */; };
+		A8DB1A932583085E00C6058B /* libCameraBuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB1A922583085E00C6058B /* libCameraBuffer.a */; };
+		A8DB1A982583087400C6058B /* libCameraBuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB1A972583087400C6058B /* libCameraBuffer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A86246A725823379002ABE1D /* CameraBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBuffer.h; sourceTree = "<group>"; };
 		A8A023A42580D9AB00F0B49A /* WiFiCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A023A72580D9AB00F0B49A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8A023A82580D9AB00F0B49A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		A8A023CA2580D9AE00F0B49A /* WiFiCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiCameraUITests.m; sourceTree = "<group>"; };
 		A8A023D02580D9AE00F0B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DB1A922583085E00C6058B /* libCameraBuffer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCameraBuffer.a; path = CVGC/include/CameraBuffer/libCameraBuffer.a; sourceTree = "<group>"; };
+		A8DB1A972583087400C6058B /* libCameraBuffer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCameraBuffer.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DB1A982583087400C6058B /* libCameraBuffer.a in Frameworks */,
+				A8DB1A932583085E00C6058B /* libCameraBuffer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8624699258231E1002ABE1D /* CVGC */ = {
+			isa = PBXGroup;
+			children = (
+				A86246A525823379002ABE1D /* include */,
+			);
+			path = CVGC;
+			sourceTree = SOURCE_ROOT;
+		};
+		A86246A525823379002ABE1D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A86246A625823379002ABE1D /* CameraBuffer */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A86246A625823379002ABE1D /* CameraBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB1A972583087400C6058B /* libCameraBuffer.a */,
+				A86246A725823379002ABE1D /* CameraBuffer.h */,
+			);
+			path = CameraBuffer;
+			sourceTree = "<group>";
+		};
 		A8A0239B2580D9AB00F0B49A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +121,7 @@
 				A8A023C22580D9AE00F0B49A /* WiFiCameraTests */,
 				A8A023CD2580D9AE00F0B49A /* WiFiCameraUITests */,
 				A8A023A52580D9AB00F0B49A /* Products */,
+				A8DB1A912583085E00C6058B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +138,7 @@
 		A8A023A62580D9AB00F0B49A /* WiFiCamera */ = {
 			isa = PBXGroup;
 			children = (
+				A8624699258231E1002ABE1D /* CVGC */,
 				A8A023A72580D9AB00F0B49A /* AppDelegate.h */,
 				A8A023A82580D9AB00F0B49A /* AppDelegate.m */,
 				A8A023AA2580D9AB00F0B49A /* SceneDelegate.h */,
@@ -135,6 +170,14 @@
 				A8A023D02580D9AE00F0B49A /* Info.plist */,
 			);
 			path = WiFiCameraUITests;
+			sourceTree = "<group>";
+		};
+		A8DB1A912583085E00C6058B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8DB1A922583085E00C6058B /* libCameraBuffer.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86246AB258233CD002ABE1D /* CameraBuffer.h in Sources */,
 				A8A023AF2580D9AB00F0B49A /* ViewController.m in Sources */,
 				A8A023A92580D9AB00F0B49A /* AppDelegate.m in Sources */,
 				A8A023BA2580D9AE00F0B49A /* main.m in Sources */,
@@ -448,9 +492,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CVGC",
+					"$(PROJECT_DIR)/CVGC/include/CameraBuffer",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(CONTENTS_FOLDER_PATH)/WiFiCamera/CVGC/libCameraBufferNew.a";
 			};
 			name = Debug;
 		};
@@ -466,9 +516,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CVGC",
+					"$(PROJECT_DIR)/CVGC/include/CameraBuffer",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(CONTENTS_FOLDER_PATH)/WiFiCamera/CVGC/libCameraBufferNew.a";
 			};
 			name = Release;
 		};
