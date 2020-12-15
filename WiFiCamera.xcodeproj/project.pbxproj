@@ -494,7 +494,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CVGC",
 					"$(PROJECT_DIR)/CVGC/include/CameraBuffer",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
@@ -518,7 +517,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CVGC",
 					"$(PROJECT_DIR)/CVGC/include/CameraBuffer",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
