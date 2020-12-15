@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 项目名称	
   s.name         = "WiFiCamera" 
   # 版本号 与 仓库标签号 对应
-  s.version      = "0.0.1" 
+  s.version      = "0.0.2" 
   #iOS最低版本
   s.platform     = :ios, "10.0"
   # 项目简介 
@@ -22,8 +22,11 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   #依赖的非系统的静态库
   #s.static_framework = true
+
   #s.vendored_library = "CVGC/include/CameraBuffer/libCameraBuffer.a"
+ 
   s.vendored_libraries = 'CVGC/include/CameraBuffer/CameraBuffer.a'
   
+  s.requires_arc = true
 
 end
