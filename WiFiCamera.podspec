@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   #引用库
   s.frameworks = 'UIKit'
   #依赖的非系统的静态库
-  #s.static_framework = true
+  s.static_framework = true
 
   #s.vendored_library = "CVGC/include/CameraBuffer/libCameraBuffer.a"
  
-  s.vendored_libraries = 'CVGC/include/CameraBuffer/CameraBuffer.a'
+  s.vendored_libraries = 'CVGC/include/CameraBuffer/libCameraBuffer.a'
   
   s.requires_arc = true
 
