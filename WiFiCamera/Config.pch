@@ -1,0 +1,19 @@
+//
+//  Config.pch
+//  WiFiCamera
+//
+//  Created by kui on 2021/4/20.
+//
+
+#ifndef Config_pch
+#define Config_pch
+ 
+#define NSStringFormat(format,...) [NSString stringWithFormat:format,##__VA_ARGS__]
+
+#import "RequestManager.h"
+#import "HttpInterface.h"
+#import "MJExtension.h"
+
+#import "NSObject+Expand.h"
+
+#endif /* Config_pch */

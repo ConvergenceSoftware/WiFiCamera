@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A86246AB258233CD002ABE1D /* CameraBuffer.h in Sources */ = {isa = PBXBuildFile; fileRef = A86246A725823379002ABE1D /* CameraBuffer.h */; };
+		3D2525769FD117C89F6DD46E /* Pods_WiFiCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE370195CE8F4C91B55A0E7D /* Pods_WiFiCamera.framework */; };
+		5FA74A96A092AD2ECDBAEC83 /* Pods_WiFiCameraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D92C7DE400B13F3F3AB401 /* Pods_WiFiCameraTests.framework */; };
+		86CEC9943E083FDE32CD23B8 /* Pods_WiFiCamera_WiFiCameraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5008CBE2235A8793BAAB0678 /* Pods_WiFiCamera_WiFiCameraUITests.framework */; };
+		A852E1A9262844F300A5AB00 /* CameraBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = A852E1A8262844F300A5AB00 /* CameraBuffer.m */; };
+		A86EA266262E728E00AD1A06 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86EA264262E728E00AD1A06 /* RequestManager.m */; };
+		A86EA26C262E72C500AD1A06 /* HttpInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A86EA26B262E72C500AD1A06 /* HttpInterface.m */; };
+		A86EA273262E837400AD1A06 /* ShowDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86EA271262E837400AD1A06 /* ShowDataViewController.m */; };
+		A86EA274262E837400AD1A06 /* ShowDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A86EA272262E837400AD1A06 /* ShowDataViewController.xib */; };
 		A8A023A92580D9AB00F0B49A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023A82580D9AB00F0B49A /* AppDelegate.m */; };
 		A8A023AC2580D9AB00F0B49A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023AB2580D9AB00F0B49A /* SceneDelegate.m */; };
 		A8A023AF2580D9AB00F0B49A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023AE2580D9AB00F0B49A /* ViewController.m */; };
@@ -17,8 +24,7 @@
 		A8A023BA2580D9AE00F0B49A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023B92580D9AE00F0B49A /* main.m */; };
 		A8A023C42580D9AE00F0B49A /* WiFiCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023C32580D9AE00F0B49A /* WiFiCameraTests.m */; };
 		A8A023CF2580D9AE00F0B49A /* WiFiCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */; };
-		A8DB1A932583085E00C6058B /* libCameraBuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB1A922583085E00C6058B /* libCameraBuffer.a */; };
-		A8DB1A982583087400C6058B /* libCameraBuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DB1A972583087400C6058B /* libCameraBuffer.a */; };
+		A8C6679F262FFF6100724682 /* NSObject+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C6679E262FFF6100724682 /* NSObject+Expand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A86246A725823379002ABE1D /* CameraBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBuffer.h; sourceTree = "<group>"; };
+		45EF592F47FF9AF74207723D /* Pods-WiFiCameraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiCameraTests.release.xcconfig"; path = "Target Support Files/Pods-WiFiCameraTests/Pods-WiFiCameraTests.release.xcconfig"; sourceTree = "<group>"; };
+		5008CBE2235A8793BAAB0678 /* Pods_WiFiCamera_WiFiCameraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFiCamera_WiFiCameraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700D155D70A85542707D1D6D /* Pods-WiFiCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiCamera.debug.xcconfig"; path = "Target Support Files/Pods-WiFiCamera/Pods-WiFiCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		82F9F6118F1FE2C2C86285D9 /* Pods-WiFiCamera-WiFiCameraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiCamera-WiFiCameraUITests.release.xcconfig"; path = "Target Support Files/Pods-WiFiCamera-WiFiCameraUITests/Pods-WiFiCamera-WiFiCameraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A852E1A7262844F300A5AB00 /* CameraBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBuffer.h; sourceTree = "<group>"; };
+		A852E1A8262844F300A5AB00 /* CameraBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBuffer.m; sourceTree = "<group>"; };
+		A86EA25D262E6E6B00AD1A06 /* Config.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.pch; sourceTree = "<group>"; };
+		A86EA264262E728E00AD1A06 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		A86EA265262E728E00AD1A06 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		A86EA26A262E72C500AD1A06 /* HttpInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpInterface.h; sourceTree = "<group>"; };
+		A86EA26B262E72C500AD1A06 /* HttpInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpInterface.m; sourceTree = "<group>"; };
+		A86EA270262E837400AD1A06 /* ShowDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowDataViewController.h; sourceTree = "<group>"; };
+		A86EA271262E837400AD1A06 /* ShowDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowDataViewController.m; sourceTree = "<group>"; };
+		A86EA272262E837400AD1A06 /* ShowDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowDataViewController.xib; sourceTree = "<group>"; };
 		A8A023A42580D9AB00F0B49A /* WiFiCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A023A72580D9AB00F0B49A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8A023A82580D9AB00F0B49A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,8 +77,14 @@
 		A8A023CA2580D9AE00F0B49A /* WiFiCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A023CE2580D9AE00F0B49A /* WiFiCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiCameraUITests.m; sourceTree = "<group>"; };
 		A8A023D02580D9AE00F0B49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C6679D262FFF6100724682 /* NSObject+Expand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Expand.h"; sourceTree = "<group>"; };
+		A8C6679E262FFF6100724682 /* NSObject+Expand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Expand.m"; sourceTree = "<group>"; };
 		A8DB1A922583085E00C6058B /* libCameraBuffer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCameraBuffer.a; path = CVGC/include/CameraBuffer/libCameraBuffer.a; sourceTree = "<group>"; };
-		A8DB1A972583087400C6058B /* libCameraBuffer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCameraBuffer.a; sourceTree = "<group>"; };
+		A9ACF3589149C8DAE7D98F8D /* Pods-WiFiCameraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiCameraTests.debug.xcconfig"; path = "Target Support Files/Pods-WiFiCameraTests/Pods-WiFiCameraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D92C7DE400B13F3F3AB401 /* Pods_WiFiCameraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFiCameraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA328FC222B30DEF90643398 /* Pods-WiFiCamera-WiFiCameraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiCamera-WiFiCameraUITests.debug.xcconfig"; path = "Target Support Files/Pods-WiFiCamera-WiFiCameraUITests/Pods-WiFiCamera-WiFiCameraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE370195CE8F4C91B55A0E7D /* Pods_WiFiCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFiCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBD357DE919C918BF49B01A /* Pods-WiFiCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiCamera.release.xcconfig"; path = "Target Support Files/Pods-WiFiCamera/Pods-WiFiCamera.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DB1A982583087400C6058B /* libCameraBuffer.a in Frameworks */,
-				A8DB1A932583085E00C6058B /* libCameraBuffer.a in Frameworks */,
+				3D2525769FD117C89F6DD46E /* Pods_WiFiCamera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA74A96A092AD2ECDBAEC83 /* Pods_WiFiCameraTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,36 +108,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CEC9943E083FDE32CD23B8 /* Pods_WiFiCamera_WiFiCameraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26A787580FF837BCD1C6A27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				700D155D70A85542707D1D6D /* Pods-WiFiCamera.debug.xcconfig */,
+				DFBD357DE919C918BF49B01A /* Pods-WiFiCamera.release.xcconfig */,
+				AA328FC222B30DEF90643398 /* Pods-WiFiCamera-WiFiCameraUITests.debug.xcconfig */,
+				82F9F6118F1FE2C2C86285D9 /* Pods-WiFiCamera-WiFiCameraUITests.release.xcconfig */,
+				A9ACF3589149C8DAE7D98F8D /* Pods-WiFiCameraTests.debug.xcconfig */,
+				45EF592F47FF9AF74207723D /* Pods-WiFiCameraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A8624699258231E1002ABE1D /* CVGC */ = {
 			isa = PBXGroup;
 			children = (
-				A86246A525823379002ABE1D /* include */,
+				A852E1A7262844F300A5AB00 /* CameraBuffer.h */,
+				A852E1A8262844F300A5AB00 /* CameraBuffer.m */,
 			);
 			path = CVGC;
 			sourceTree = SOURCE_ROOT;
-		};
-		A86246A525823379002ABE1D /* include */ = {
-			isa = PBXGroup;
-			children = (
-				A86246A625823379002ABE1D /* CameraBuffer */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		A86246A625823379002ABE1D /* CameraBuffer */ = {
-			isa = PBXGroup;
-			children = (
-				A8DB1A972583087400C6058B /* libCameraBuffer.a */,
-				A86246A725823379002ABE1D /* CameraBuffer.h */,
-			);
-			path = CameraBuffer;
-			sourceTree = "<group>";
 		};
 		A8A0239B2580D9AB00F0B49A = {
 			isa = PBXGroup;
@@ -122,6 +145,7 @@
 				A8A023CD2580D9AE00F0B49A /* WiFiCameraUITests */,
 				A8A023A52580D9AB00F0B49A /* Products */,
 				A8DB1A912583085E00C6058B /* Frameworks */,
+				A26A787580FF837BCD1C6A27 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,10 +169,20 @@
 				A8A023AB2580D9AB00F0B49A /* SceneDelegate.m */,
 				A8A023AD2580D9AB00F0B49A /* ViewController.h */,
 				A8A023AE2580D9AB00F0B49A /* ViewController.m */,
+				A86EA270262E837400AD1A06 /* ShowDataViewController.h */,
+				A86EA271262E837400AD1A06 /* ShowDataViewController.m */,
+				A86EA272262E837400AD1A06 /* ShowDataViewController.xib */,
+				A86EA265262E728E00AD1A06 /* RequestManager.h */,
+				A86EA264262E728E00AD1A06 /* RequestManager.m */,
+				A86EA26A262E72C500AD1A06 /* HttpInterface.h */,
+				A86EA26B262E72C500AD1A06 /* HttpInterface.m */,
+				A8C6679D262FFF6100724682 /* NSObject+Expand.h */,
+				A8C6679E262FFF6100724682 /* NSObject+Expand.m */,
 				A8A023B02580D9AB00F0B49A /* Main.storyboard */,
 				A8A023B32580D9AD00F0B49A /* Assets.xcassets */,
 				A8A023B52580D9AE00F0B49A /* LaunchScreen.storyboard */,
 				A8A023B82580D9AE00F0B49A /* Info.plist */,
+				A86EA25D262E6E6B00AD1A06 /* Config.pch */,
 				A8A023B92580D9AE00F0B49A /* main.m */,
 			);
 			path = WiFiCamera;
@@ -176,6 +210,9 @@
 			isa = PBXGroup;
 			children = (
 				A8DB1A922583085E00C6058B /* libCameraBuffer.a */,
+				DE370195CE8F4C91B55A0E7D /* Pods_WiFiCamera.framework */,
+				5008CBE2235A8793BAAB0678 /* Pods_WiFiCamera_WiFiCameraUITests.framework */,
+				A9D92C7DE400B13F3F3AB401 /* Pods_WiFiCameraTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8A023D32580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCamera" */;
 			buildPhases = (
+				172217F8A5A6ECD74F907B1C /* [CP] Check Pods Manifest.lock */,
 				A8A023A02580D9AB00F0B49A /* Sources */,
 				A8A023A12580D9AB00F0B49A /* Frameworks */,
 				A8A023A22580D9AB00F0B49A /* Resources */,
+				F5E1FFFADF16991B7928145D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8A023D62580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCameraTests" */;
 			buildPhases = (
+				F02C7AC1B03AA3A265ED9B27 /* [CP] Check Pods Manifest.lock */,
 				A8A023BB2580D9AE00F0B49A /* Sources */,
 				A8A023BC2580D9AE00F0B49A /* Frameworks */,
 				A8A023BD2580D9AE00F0B49A /* Resources */,
@@ -222,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8A023D92580D9AE00F0B49A /* Build configuration list for PBXNativeTarget "WiFiCameraUITests" */;
 			buildPhases = (
+				269AB4B18CD228B4ED1ED316 /* [CP] Check Pods Manifest.lock */,
 				A8A023C62580D9AE00F0B49A /* Sources */,
 				A8A023C72580D9AE00F0B49A /* Frameworks */,
 				A8A023C82580D9AE00F0B49A /* Resources */,
+				497070AA24CF78341A618E2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A023B72580D9AE00F0B49A /* LaunchScreen.storyboard in Resources */,
+				A86EA274262E837400AD1A06 /* ShowDataViewController.xib in Resources */,
 				A8A023B42580D9AD00F0B49A /* Assets.xcassets in Resources */,
 				A8A023B22580D9AB00F0B49A /* Main.storyboard in Resources */,
 			);
@@ -304,14 +347,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		172217F8A5A6ECD74F907B1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFiCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		269AB4B18CD228B4ED1ED316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFiCamera-WiFiCameraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		497070AA24CF78341A618E2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiFiCamera-WiFiCameraUITests/Pods-WiFiCamera-WiFiCameraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiFiCamera-WiFiCameraUITests/Pods-WiFiCamera-WiFiCameraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WiFiCamera-WiFiCameraUITests/Pods-WiFiCamera-WiFiCameraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02C7AC1B03AA3A265ED9B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFiCameraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E1FFFADF16991B7928145D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiFiCamera/Pods-WiFiCamera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiFiCamera/Pods-WiFiCamera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WiFiCamera/Pods-WiFiCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8A023A02580D9AB00F0B49A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86246AB258233CD002ABE1D /* CameraBuffer.h in Sources */,
 				A8A023AF2580D9AB00F0B49A /* ViewController.m in Sources */,
 				A8A023A92580D9AB00F0B49A /* AppDelegate.m in Sources */,
+				A852E1A9262844F300A5AB00 /* CameraBuffer.m in Sources */,
+				A86EA266262E728E00AD1A06 /* RequestManager.m in Sources */,
+				A86EA26C262E72C500AD1A06 /* HttpInterface.m in Sources */,
+				A86EA273262E837400AD1A06 /* ShowDataViewController.m in Sources */,
+				A8C6679F262FFF6100724682 /* NSObject+Expand.m in Sources */,
 				A8A023BA2580D9AE00F0B49A /* main.m in Sources */,
 				A8A023AC2580D9AB00F0B49A /* SceneDelegate.m in Sources */,
 			);
@@ -482,52 +632,53 @@
 		};
 		A8A023D42580D9AE00F0B49A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700D155D70A85542707D1D6D /* Pods-WiFiCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JV39K6U9AB;
+				EXCLUDED_ARCHS = "";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Config.pch";
 				INFOPLIST_FILE = WiFiCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CVGC/include/CameraBuffer",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(CONTENTS_FOLDER_PATH)/WiFiCamera/CVGC/libCameraBufferNew.a";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		A8A023D52580D9AE00F0B49A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBD357DE919C918BF49B01A /* Pods-WiFiCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JV39K6U9AB;
+				EXCLUDED_ARCHS = "";
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Config.pch";
 				INFOPLIST_FILE = WiFiCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CVGC/include/CameraBuffer",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = kui.WiFiCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(CONTENTS_FOLDER_PATH)/WiFiCamera/CVGC/libCameraBufferNew.a";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		A8A023D72580D9AE00F0B49A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9ACF3589149C8DAE7D98F8D /* Pods-WiFiCameraTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +699,7 @@
 		};
 		A8A023D82580D9AE00F0B49A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EF592F47FF9AF74207723D /* Pods-WiFiCameraTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -568,6 +720,7 @@
 		};
 		A8A023DA2580D9AE00F0B49A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA328FC222B30DEF90643398 /* Pods-WiFiCamera-WiFiCameraUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U39K6PTYW;
@@ -586,6 +739,7 @@
 		};
 		A8A023DB2580D9AE00F0B49A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F9F6118F1FE2C2C86285D9 /* Pods-WiFiCamera-WiFiCameraUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U39K6PTYW;
