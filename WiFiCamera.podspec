@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 项目名称	
   s.name         = "WiFiCamera" 
   # 版本号 与 仓库标签号 对应
-  s.version      = "0.0.3" 
+  s.version      = "1.0.0" 
   #iOS最低版本
   s.platform     = :ios, "10.0"
   # 项目简介 
