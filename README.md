@@ -394,9 +394,9 @@ http://192.168.8.10:8080/input.json
 > 
 > **Official website:**
 >
-> [www.cvgc.cn][cvgc.link]
+> [www.cvgc.cn] [cvgc.link]
 >
-> [www.tipscope.com][tipscope.link]
+> [www.tipscope.com] [tipscope.link]
 >
-> [www.tinyscope.com][tinyscope.link]
+> [www.tinyscope.com] [tinyscope.link]
  
