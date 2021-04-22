@@ -2,7 +2,6 @@
 ---- 
 >  iOS SDK and Demo for devices designed by Convergence Ltd.
 ## 🔨 Requirements
----- 
 - iOS 10
 
 ## Add the code to your project in the following two ways
@@ -12,7 +11,7 @@
 pod 'WiFiCamera'
 ``` 
 ### 2.Clone Code 
->>> Add the code under the CVGC folder to the project.
+> Add the code under the CVGC folder to the project.
 ```objc
 #import "CameraBuffer.h"
 ```
