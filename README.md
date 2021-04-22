@@ -383,5 +383,7 @@ http://192.168.8.10:8080/input.json
 
  ```
 > Example of setting lens resolution: value0~11;
+> 
 > http://192.168.8.10:8080/?action=command&dest=0plugin=0&id=0&group=2&value=0
+> 
 > The specific value corresponds to the resolution refer to input.json "resolutions"
