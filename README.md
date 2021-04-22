@@ -2,7 +2,7 @@
 ---- 
 >  iOS SDK and Demo for devices designed by Convergence Ltd.
 ## 🔨 Requirements
-- iOS 10
+- iOS 10+
 
 ## Add the code to your project in the following two ways
 
@@ -386,3 +386,16 @@ http://192.168.8.10:8080/input.json
 > http://192.168.8.10:8080/?action=command&dest=0plugin=0&id=0&group=2&value=0
 > 
 > The specific value corresponds to the resolution refer to input.json "resolutions"
+
+### For more information, please refer to Demo
+
+## Contact us
+> **✉️ :** software@cvgc.cn 
+> **Official website:**
+>
+> [www.cvgc.cn][cvgc.link]
+>
+> [www.tipscope.com][tipscope.link]
+>
+> [www.tinyscope.com][tinyscope.link]
+ 
